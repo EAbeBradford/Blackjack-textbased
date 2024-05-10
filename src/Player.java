@@ -57,6 +57,9 @@ public class Player {
         }
     }
     public void addCard(Card c){
+        if (c.type.equals("Ace") && valueOfHand +11> 21){
+            c.value = 1;
+        }
 
         if(numCards>1) {
             Card[] temp = hand;

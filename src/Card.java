@@ -22,7 +22,7 @@ public class Card {
         switch (pValue){
             case 1:
                 type = "Ace";
-                value = 10;
+                value = 11;
                 break;
             case 2:
                 type = "Two";
